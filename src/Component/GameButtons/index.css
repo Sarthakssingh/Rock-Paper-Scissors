@@ -1,0 +1,12 @@
+.button {
+  background-color: #ffffff;
+  color: #223a5f;
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+.rock-paper-img {
+  width: 200px;
+}

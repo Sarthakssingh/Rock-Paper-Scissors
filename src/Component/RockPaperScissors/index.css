@@ -1,0 +1,119 @@
+.container {
+  background-color: #223a5f;
+  color: #ffffff;
+  margin: 0;
+  padding: 50px;
+  height: 100vh;
+}
+.score-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  border: 4px solid #ffffff;
+  border-radius: 10px;
+  width: 70vw;
+  height: 160px;
+  margin: auto;
+}
+.text-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.score-in-box {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  color: #223a5f;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+h1 {
+  margin-top: 3px;
+  font-size: 25px;
+}
+p {
+  margin-top: 4px;
+  font-size: 20px;
+}
+.score {
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.initialContainer {
+  display: flex;
+  flex-direction: row;
+  width: 35vw;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.popup {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding: 20px;
+}
+.rules {
+  height: 80vh;
+  align-items: center;
+}
+.trigger-button {
+  color: #223a5f;
+  align-self: flex-start;
+  justify-content: start;
+  margin: 5px;
+}
+.img-btn {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.game-mid-container {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.game-contents {
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40vw;
+}
+.choice-image {
+  height: 150px;
+  margin: 5px;
+}
+.you-other {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.playAgain-btn {
+  background-color: #ffffff;
+  color: #223a5f;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100px;
+  height: 40px;
+}
